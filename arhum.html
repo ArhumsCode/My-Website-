@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>All About Me</title>
+  <style>
+    @font-face {
+      font-family: "Patua-One";
+      src: url(fontss/PatuaOne-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: "navfont";
+      src: url(fontss/NotoSans-Medium.ttf);
+    }
+    @font-face {
+      font-family: "Math-Font" ;
+      src: url(fontss/NeoEuler-VGO00.otf);
+    }
+    #math {
+      font-family:Math-Font;
+
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      background-color: #748cab;
+      color: #0a1329;
+    }
+
+    label {
+      display: block;
+
+      margin: 0.5rem 0;
+    }
+
+    a {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #0d1321;
+    }
+
+    h1 {
+      font-family: "Patua-One", sans-serif;
+      font-size: 55px;
+      color: #0d1321;
+    }
+
+    img {
+      margin: 2rem 0;
+      border: 5px solid #571f6d;
+    }
+    #imgone {
+      display: inline-block;
+      object-fit: cover;
+      width: 15rem;
+      height: 15rem;
+    }
+    #imgtwo{
+      display:inline-block;
+      width: 15rem;
+      height: 15rem;
+
+    }
+
+    .button2 {
+      background-color: #00b4d8;
+    }
+
+    #boxed {
+      border: 7px dashed #053779;
+    }
+
+    .navbar {
+      background-color: #333;
+    }
+
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      /* display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; */
+    }
+
+    .navbar__list {
+      background-color: rgb(54, 5, 54);
+    }
+
+    .navbar li {
+      display: inline;
+      margin: 0 150px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      font-family: "navfont", "sans-serif";
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      color: rgb(173, 155, 222);
+    }
+
+    #video {
+      width: 1000px;
+      height: 1000px;
+    }
+    p {
+      font-size: 25px;
+      text-decoration: none;
+      
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="boxed">
+    <h1>
+      <center><u>Arhum's Interests</u></center>
+    </h1>
+  </div>
+  <nav class="navbar">
+    <ul class="navbar__list">
+      <li><a href="arhum.html">Hobbies</a></li>
+      <li><a href="registration.html">Registration Form</a></li>
+      <li><a href="car.html">Coding</a></li>
+    </ul>
+  </nav>
+  <h2>Basketball</h2>
+  
+  <img src="kylelowry.jpg" alt="KYle Lowry">
+  <p class="paragraph">One of my favourite hobbies is basketball. Basketball is an amazing sport made by a Canadian physician James Naismith. It has grown to one of the most popular sports in the world with hundreds of millions of people playing the sport. It involves a basketball and a hoop. Anything within the curved 3 point line is 2 points and anything outside of it is 3 points. </p>
+  <hr>
+   <h2> Boxing</h2>
+   <img src="boxing.jpg" alt="Muhammed Ali">
+   <p> Boxing is another one of my hobbies. It is something I do at the LA Fitness Gym and at home. I haven't really got any boxing lessons but I learn from videos online. My favourite boxers of all time are Muhammed Ali and Manny Pacquiao.</p>
+  <hr size=45px>
+ <h2><u>List of Links</u></h2>
+  <ul>
+    <li><a href="https://www.youtube.com"> <i> YouTube <i> </a></li>
+    <li><a href="https://www.w3schools.com/tags/att_a_href.asp"> <b>W3 Schools</b> </a></li>
+    <li><a href="https://www.apple.com/" color="red"> <b> Buy Apple Products <b> </a></li>
+  </ul>
+  <hr>
+  <h2>Mathematics</h2>
+  <img src="math.jpg">
+  <p id="math">Math is my favourite subject in school and I love doing Mathematics Contests to challenge my skills and problem solving abilities. One of the things that I love about math is there is always only one correct answer. Two Brilliant minds might have a different  step process to get to that final answer but there was always be only one final answer in most situations.</p>
+  <hr>
+  <audio controls>
+    <source src="Tunak.mp3" type="audio/mpeg">
+  </audio>
+  <h2>Click On This  First Picture of Kyrie Irving to read his Basketball Stats</h2>
+  <a href="https://www.basketball-reference.com/players/i/irvinky01.html"><img src="kyrie.jpg" id="imgone"></a>
+  <img src="kyrie2.jpg" id="imgtwo">
+  <p>This is my favourite basketball player Kyrie Irving he has tremendous handles and has maintained great stats
+    throughout the year</p>
+
+  <hr>
+  <div id="video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rqJDO3TWnac?si=38K8Q_ZDN7exL3pg"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <!---This is a video I embedded straight from youtube and I changed the width and height by using CSS-->
+
+
+
+
+
+</body>
+
+</html>
